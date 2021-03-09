@@ -26,8 +26,7 @@ const prime = (nPosition) => {
   while (primeCounter < nPosition) {
     prime = true;
     checkingNumber++;
-    for(let i = 2; i <= checkingNumber / 2; i++)
-    {
+    for (let i = 2; i <= checkingNumber / 2; i++) {
       if ((checkingNumber % i) === 0) {
         prime = false;
         break;
