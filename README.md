@@ -3,6 +3,7 @@
 This repository stores all the information related to _Debugging-Javascript_ presentation for the subject Interactive Aplication Programming.
 
 Repository structure:
+```
   .  
   ├── .gitignore  
   ├── README.md  
@@ -28,7 +29,7 @@ Repository structure:
               ├── js  
               │   └── sum-of-multiples.js  
               └── index.html  
-    
+```
 Authors:  
 - Ángel Tornero Hernández  
 - Gabriel García Jaubert
