@@ -22,7 +22,7 @@
 const primeFactors = (inputNumber) => {
   let arrayPrimeFactors = [];
   let number = 1;
-  while (inputNumber != 1) {
+  while (inputNumber !== 1) {
     number++;
     if (inputNumber % number === 0) {
       arrayPrimeFactors.push(number);
