@@ -16,7 +16,6 @@
  * @param {number} nPosition Position of the wanted prime number to calculate.
  * @return {number} Return the corresponding number.
  */
-
 const prime = (nPosition) => {
   if (nPosition === 0) {
     throw new Error('there is no zeroth prime');
