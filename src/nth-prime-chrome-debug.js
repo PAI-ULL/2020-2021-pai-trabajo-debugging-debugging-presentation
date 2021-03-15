@@ -9,7 +9,7 @@
  * @date 07 Mar 2021
  * @brief Code for Exercism's challenge "Nth-prime"
  */
-
+'use strict';
 /**
  * Calculates the nth prime number. 
  * 
