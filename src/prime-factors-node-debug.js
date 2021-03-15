@@ -25,10 +25,7 @@ const primeFactors = (inputNumber) => {
   let arrayPrimeFactors = [];
   let number = 1;
   while (inputNumber !== 1) {
-<<<<<<< HEAD
-=======
     DEBUG_WHILE(`While loop ${inputNumber}`);
->>>>>>> entrega
     number++;
     if (inputNumber % number === 0) {
       DEBUG_IF(`If statement with ${number}`);
